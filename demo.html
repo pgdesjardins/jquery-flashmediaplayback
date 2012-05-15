@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="jquery-flashmediaplayback.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#video1').fmp({poster: ''}).css({'border':'solid 4px red'});
+            $('#video2').fmp({controlBarMode:'floating'});
+            $('#video3').fmp({controlBarMode: 'none'});
+
+        });
+
+    </script>
+</head>
+<body>
+    <div id="video1"></div>
+    <div id="video2"></div>
+    <div id="video3"></div>
+</body>
+</html>
